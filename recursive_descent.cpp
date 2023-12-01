@@ -52,14 +52,14 @@ int Get_E() {
 
 int Get_T() {
    
-    int val1 = Get_N();
+    int val1 = Get_P();
     char op = 0;
 
     while(s[p] == '*' || s[p] == '/') {
         op = s[p];
         p++;
 
-        int val2 = Get_N();
+        int val2 = Get_P();
 
         switch (op)
         {

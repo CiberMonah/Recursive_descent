@@ -3,7 +3,7 @@
 #include "recursive_descent.h"
 
 int main() {
-    const char* str  = "2*3*4";
+    const char* str  = "(1+1)*18";
 
     printf("%d", Get_G(str));
 }
